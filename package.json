@@ -1,0 +1,36 @@
+{
+  "name": "tanstarter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "preview": "wrangler pages dev dist",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.76.1",
+    "@tanstack/router-devtools": "^1.76.1",
+    "@tanstack/start": "^1.76.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vinxi": "^0.4.3"
+  },
+  "devDependencies": {
+    "@eslint-react/eslint-plugin": "^1.15.0",
+    "@eslint/js": "^9.13.0",
+    "@tanstack/eslint-plugin-router": "^1.74.5",
+    "@types/eslint__js": "^8.42.3",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "globals": "^15.11.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0",
+    "vite-tsconfig-paths": "^5.0.1",
+    "wrangler": "^3.82.0"
+  }
+}
